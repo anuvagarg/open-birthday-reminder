@@ -8,9 +8,9 @@
 
 body{
     --color-dark : #343a40;
-    --color-light: #f5f3f4;
+    --color-light: #ffffff;
     --panelColor: #ffe66d;
-    --active : #06d6a0;
+    --active : #f158ff;
 }
 
 #site-main{
