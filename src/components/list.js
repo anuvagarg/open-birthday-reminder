@@ -10,7 +10,7 @@ export default function list({info, upcoming}) {
 
 function iterate(data, flag){
     if (!data) return;
-    const bgColor = flag ? { backgroundColor : "#ffe66d"} : {};
+    const bgColor = flag ? { backgroundColor : "#46BB78"} : {};
     return (
         <>
             {
@@ -20,7 +20,7 @@ function iterate(data, flag){
                         <li key={index}>
                             <div className="flex" style={bgColor}>
                                 <img src={person.img} alt="img" />
-                                <div className="title">
+                                <div className="text-light title">
                                     <h3 className='name'>{person.name}</h3>
                                     <h5 className="age">{Old(person.birthday)} years</h5>
                                 </div>

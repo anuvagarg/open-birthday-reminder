@@ -2,17 +2,17 @@ import React from 'react';
 import './board.css';
 import List from './list'
 import Balloons from './balloons.js'; 
-import Data from './data'
+/*import Data from './data'*/
 
 const Info = [
     {
         img : "https://media-exp1.licdn.com/dms/image/C5603AQHK5AOKMiVs3A/profile-displayphoto-shrink_800_800/0/1564620462111?e=2147483647&v=beta&t=Tixe1LsTxK2XtHJYe90DsVsPsHV4YEX8n4GX_OefAv4",
         name : "Khushboo Jakhmola", birthday : "2001-04-26"
     },
-    /*{
+    {
         img : "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-        name : "Miller Wright", birthday : "1998-04-19"
-    },*/
+        name : "Miller Wright", birthday : "1998-05-14"
+    },
     {
       img : " https://media-exp1.licdn.com/dms/image/C5103AQEa9OCXf6Jidw/profile-displayphoto-shrink_400_400/0/1586493476926?e=1654732800&v=beta&t=KE7d6ypHhMsYF5EjM-1FuFN99sUKa4WqedIgv03Ks8o",
       name: " Sanyam Mehendiratta", birthday: " 2000-02-11"
@@ -58,23 +58,23 @@ const Info = [
       name:"Shudhanshu Shrotriya ", birthday:"2001-05-11"
     },
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Shreeji Saraogi", birthday:"2001-05-11"
     },
     {
       img:"https://media-exp1.licdn.com/dms/image/C5103AQHw5oPIw5yvDQ/profile-displayphoto-shrink_400_400/0/1573561220228?e=1654732800&v=beta&t=z_kyTActwj2IItdxrtAKxAd8l48ZSbDGNZ08X0-7HRg",
       name:"Divij Chaudhari", birthday:"2001-10-01"
     },
-    {
+    /*{
       img:"https://media-exp1.licdn.com/dms/image/C4D03AQE4d8L2B4vP5w/profile-displayphoto-shrink_400_400/0/1646662715799?e=2147483647&v=beta&t=depcg3JD0ND6ycCZqRFaxSrPFiVl_CWs9g-2jeRUiuY",
       name:"Alok Dixit", birthday:"2001-10-03"
-    },
+    },*/
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Snigdha Parashar", birthday:"2001-10-05"
     },
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Harsh Raturi", birthday:"2001-12-05"
     },
     {
@@ -82,7 +82,7 @@ const Info = [
       name:"Srijan Agrawal", birthday:"2001-12-17"
     },
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Akarshan Nigam", birthday:"2001-12-24"
     },
     {
@@ -110,15 +110,15 @@ const Info = [
       name:"Manan Gupta", birthday:"2002-07-14"
     },
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Charu Gupta",birthday:"2002-07-27"
     },
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Yashraj Prasad", birthday:"2002-08-28"
     },
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:" Sarthak Tiwari", birthday:"2002-09-17"
     },
     {
@@ -142,11 +142,11 @@ const Info = [
       name:"Shiwanshi Pandey", birthday:"2002-12-07"
     },
     {
-      img:"../../public/favicon.ico",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Nimol Kainth", birthday:"2002-12-12"
     },
     {
-      img:"",
+      img:"https://media-exp1.licdn.com/dms/image/C4E0BAQHrP76ZeUc36w/company-logo_200_200/0/1604045815454?e=2147483647&v=beta&t=8mmLgNDhL-UF3KObtUoruzUV70Z3XyGI3eOOoqDtAXw",
       name:"Bharti Bhathotia", birthday:"2003-01-21"
     },
     {
@@ -224,6 +224,6 @@ function Upcoming(person, toMonth){
         return month >= currentMonth && month <= currentMonth + toMonth;
     })
 
-    return filter;
+    return filter.slice(0,2);
 
 }
